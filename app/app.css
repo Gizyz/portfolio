@@ -39,21 +39,8 @@ body {
 
 }
 
-.proj_container h1 {
-  font-size: large;
-
-}
-
-.proj_container p {
-  font-size: smaller;
-}
-
-#background {
-  height: 50rem;
-  width: 50rem;
-  background-repeat: repeat;
-  position: absolute;
-  overflow: hidden;
-  user-select: none;
-
+.bg {
+  background-color: rgba(70, 60, 60, 0.767);
+  width: 100vw;
+  height: 100vh;
 }
