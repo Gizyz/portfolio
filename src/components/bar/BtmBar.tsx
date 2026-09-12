@@ -1,20 +1,25 @@
-import AppLaunch from './AppLaunch'
+import AppLaunch from './AppLaunch';
 
 const appCards = [{
-    icon: 'favicon.ico',
+    icon: '/favicon.ico',
     name: 'About me',
+    id: 1
 }, {
-    icon: 'favicon.ico',
+    icon: '/favicon.ico',
     name: 'react',
+    id: 2
 }, {
-    icon: 'favicon.ico',
+    icon: '/favicon.ico',
     name: 'react',
+    id: 3
 }, {
-    icon: 'favicon.ico',
+    icon: '/favicon.ico',
     name: 'react',
+    id: 4
 }, {
-    icon: 'favicon.ico',
+    icon: '/favicon.ico',
     name: 'react',
+    id: 5
 },]
 
 export default function BtmBar() {
@@ -28,7 +33,7 @@ export default function BtmBar() {
                     <p className=''>start</p>
                 </div>
                 {appCards.map((app) =>
-                    < AppLaunch icon={app.icon} name={app.name} onClick={(e: MouseEvent) => (console.log(e))} />
+                    <AppLaunch key={app.id} icon={app.icon} name={app.name} onClick={(e: MouseEvent) => (console.log(e))} />
                 )}
             </div>
 

@@ -4,3 +4,8 @@
 # React Router
 /.react-router/
 /build/
+
+#next.js
+/.next/
+next-env.d.ts
+dist/
