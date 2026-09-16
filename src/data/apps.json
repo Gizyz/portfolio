@@ -1,51 +1,49 @@
-[
+[    {
+        "id": 0,
+        "name": "Calculator",
+        "icon": "/calculator.ico",
+        "description": "A simple calculator app for basic arithmetic operations."
+    },
     {
         "id": 1,
         "name": "Calculator",
         "icon": "/calculator.ico",
-        "component": "calculator",
         "description": "A simple calculator app for basic arithmetic operations."
     },
     {
         "id": 2,
         "name": "Notepad",
         "icon": "/notepad.ico",
-        "component": "notepad",
         "description": "A lightweight notepad app for taking quick notes."
     },
     {
         "id": 3,
         "name": "About me",
         "icon": "/papers.ico",
-        "component": "aboutme",
         "description": "A personal profile app that provides information about the user."
     },    
     {
         "id": 4,
         "name": "Notepad",
         "icon": "/notepad.ico",
-        "component": "notepad",
         "description": "A lightweight notepad app for taking quick notes."
     },
     {
         "id": 5,
         "name": "About me",
         "icon": "/papers.ico",
-        "component": "aboutme",
         "description": "A personal profile app that provides information about the user."
     },    
     {
         "id": 6,
         "name": "Notepad",
         "icon": "/notepad.ico",
-        "component": "notepad",
         "description": "A lightweight notepad app for taking quick notes."
     },
     {
         "id": 7,
         "name": "About me",
         "icon": "/papers.ico",
-        "component": "aboutme",
         "description": "A personal profile app that provides information about the user."
     }
 ]

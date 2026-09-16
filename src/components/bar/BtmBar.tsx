@@ -1,11 +1,8 @@
 import AppLaunch from './AppLaunch';
 import appCards from '@/data/apps.json';
 
-export default function BtmBar() {
+export default function BtmBar(props: { onClick: (appId: number) => (void) }) {
 
-    function handleAppClick(appName: String) {
-        console.log(appName);
-    }
     return (
         <div className="w-full h-15 bg-blue-400 flex justify-between">
             <div className='flex'>
@@ -14,7 +11,7 @@ export default function BtmBar() {
                     <p className=''>start</p>
                 </div>
                 {appCards.map((app) =>
-                    <AppLaunch key={app.id} icon={app.icon} name={app.name} onClick={(e: MouseEvent) => (handleAppClick(app.name))} />
+                    <AppLaunch key={app.id} icon={app.icon} name={app.name} onClick={() => props.onClick(app.id)} />
                 )}
             </div>
 

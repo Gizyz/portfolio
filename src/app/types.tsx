@@ -1,12 +1,11 @@
 export default interface appWindow {
     id: number
-    xPos: Number,
-    yPos: Number,
-    height: Number,
-    width: Number,
-    name: String,
-    description: String,
-    icon: String,
-    content: React.ReactNode,
+    name: string,
+    icon: string
+    description: string,
+    xPos: number,
+    yPos: number,
+    height: number,
+    width: number,
 }
 
